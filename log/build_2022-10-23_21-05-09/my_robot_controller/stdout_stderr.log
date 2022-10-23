@@ -1,0 +1,5 @@
+running develop
+running egg_info
+writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+running build_ext
+running install_data
