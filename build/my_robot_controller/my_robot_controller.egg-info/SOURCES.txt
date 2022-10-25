@@ -11,6 +11,7 @@ setup.py
 my_robot_controller/__init__.py
 my_robot_controller/draw_circle.py
 my_robot_controller/my_first_node.py
+my_robot_controller/pose_subscriber.py
 my_robot_controller.egg-info/PKG-INFO
 my_robot_controller.egg-info/SOURCES.txt
 my_robot_controller.egg-info/dependency_links.txt
