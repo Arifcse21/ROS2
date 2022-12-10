@@ -1,0 +1,294 @@
+[0.000000] (-) TimerEvent: {}
+[0.169607] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.169823] (-) TimerEvent: {}
+[0.170213] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.170467] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.270050] (-) TimerEvent: {}
+[0.371014] (-) TimerEvent: {}
+[0.471875] (-) TimerEvent: {}
+[0.572513] (-) TimerEvent: {}
+[0.673409] (-) TimerEvent: {}
+[0.774234] (-) TimerEvent: {}
+[0.874960] (-) TimerEvent: {}
+[0.976267] (-) TimerEvent: {}
+[1.077196] (-) TimerEvent: {}
+[1.177920] (-) TimerEvent: {}
+[1.279060] (-) TimerEvent: {}
+[1.379713] (-) TimerEvent: {}
+[1.480735] (-) TimerEvent: {}
+[1.581061] (-) TimerEvent: {}
+[1.681579] (-) TimerEvent: {}
+[1.782407] (-) TimerEvent: {}
+[1.884549] (-) TimerEvent: {}
+[1.985078] (-) TimerEvent: {}
+[2.085762] (-) TimerEvent: {}
+[2.186222] (-) TimerEvent: {}
+[2.286749] (-) TimerEvent: {}
+[2.388351] (-) TimerEvent: {}
+[2.489179] (-) TimerEvent: {}
+[2.597145] (-) TimerEvent: {}
+[2.698817] (-) TimerEvent: {}
+[2.799825] (-) TimerEvent: {}
+[2.900911] (-) TimerEvent: {}
+[3.001993] (-) TimerEvent: {}
+[3.103058] (-) TimerEvent: {}
+[3.115542] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[3.208265] (-) TimerEvent: {}
+[3.320081] (-) TimerEvent: {}
+[3.421011] (-) TimerEvent: {}
+[3.522074] (-) TimerEvent: {}
+[3.622939] (-) TimerEvent: {}
+[3.723499] (-) TimerEvent: {}
+[3.824700] (-) TimerEvent: {}
+[3.925260] (-) TimerEvent: {}
+[4.025923] (-) TimerEvent: {}
+[4.126508] (-) TimerEvent: {}
+[4.227620] (-) TimerEvent: {}
+[4.328223] (-) TimerEvent: {}
+[4.428859] (-) TimerEvent: {}
+[4.529424] (-) TimerEvent: {}
+[4.633005] (-) TimerEvent: {}
+[4.733590] (-) TimerEvent: {}
+[4.840240] (-) TimerEvent: {}
+[4.941464] (-) TimerEvent: {}
+[5.044438] (-) TimerEvent: {}
+[5.145400] (-) TimerEvent: {}
+[5.251661] (-) TimerEvent: {}
+[5.357636] (-) TimerEvent: {}
+[5.467133] (-) TimerEvent: {}
+[5.580097] (-) TimerEvent: {}
+[5.681132] (-) TimerEvent: {}
+[5.781707] (-) TimerEvent: {}
+[5.890416] (-) TimerEvent: {}
+[6.000407] (-) TimerEvent: {}
+[6.101321] (-) TimerEvent: {}
+[6.202330] (-) TimerEvent: {}
+[6.303805] (-) TimerEvent: {}
+[6.407444] (-) TimerEvent: {}
+[6.525960] (-) TimerEvent: {}
+[6.627086] (-) TimerEvent: {}
+[6.728251] (-) TimerEvent: {}
+[6.832139] (-) TimerEvent: {}
+[6.933132] (-) TimerEvent: {}
+[7.034120] (-) TimerEvent: {}
+[7.134693] (-) TimerEvent: {}
+[7.235531] (-) TimerEvent: {}
+[7.336247] (-) TimerEvent: {}
+[7.437073] (-) TimerEvent: {}
+[7.537851] (-) TimerEvent: {}
+[7.643771] (-) TimerEvent: {}
+[7.763817] (-) TimerEvent: {}
+[7.865605] (-) TimerEvent: {}
+[7.966342] (-) TimerEvent: {}
+[8.068961] (-) TimerEvent: {}
+[8.169506] (-) TimerEvent: {}
+[8.270084] (-) TimerEvent: {}
+[8.370924] (-) TimerEvent: {}
+[8.471758] (-) TimerEvent: {}
+[8.572690] (-) TimerEvent: {}
+[8.673359] (-) TimerEvent: {}
+[8.774005] (-) TimerEvent: {}
+[8.874699] (-) TimerEvent: {}
+[8.975577] (-) TimerEvent: {}
+[9.076134] (-) TimerEvent: {}
+[9.176674] (-) TimerEvent: {}
+[9.277248] (-) TimerEvent: {}
+[9.377979] (-) TimerEvent: {}
+[9.478835] (-) TimerEvent: {}
+[9.579414] (-) TimerEvent: {}
+[9.680742] (-) TimerEvent: {}
+[9.781873] (-) TimerEvent: {}
+[9.889723] (-) TimerEvent: {}
+[9.990434] (-) TimerEvent: {}
+[10.092489] (-) TimerEvent: {}
+[10.193772] (-) TimerEvent: {}
+[10.307120] (-) TimerEvent: {}
+[10.408200] (-) TimerEvent: {}
+[10.509396] (-) TimerEvent: {}
+[10.610403] (-) TimerEvent: {}
+[10.711464] (-) TimerEvent: {}
+[10.812775] (-) TimerEvent: {}
+[10.914236] (-) TimerEvent: {}
+[11.015840] (-) TimerEvent: {}
+[11.117090] (-) TimerEvent: {}
+[11.218236] (-) TimerEvent: {}
+[11.318902] (-) TimerEvent: {}
+[11.419569] (-) TimerEvent: {}
+[11.521170] (-) TimerEvent: {}
+[11.621847] (-) TimerEvent: {}
+[11.722516] (-) TimerEvent: {}
+[11.823174] (-) TimerEvent: {}
+[11.924021] (-) TimerEvent: {}
+[12.024652] (-) TimerEvent: {}
+[12.125305] (-) TimerEvent: {}
+[12.225926] (-) TimerEvent: {}
+[12.326741] (-) TimerEvent: {}
+[12.427565] (-) TimerEvent: {}
+[12.528405] (-) TimerEvent: {}
+[12.629196] (-) TimerEvent: {}
+[12.729819] (-) TimerEvent: {}
+[12.831640] (-) TimerEvent: {}
+[12.933031] (-) TimerEvent: {}
+[13.034173] (-) TimerEvent: {}
+[13.134804] (-) TimerEvent: {}
+[13.235556] (-) TimerEvent: {}
+[13.337099] (-) TimerEvent: {}
+[13.437943] (-) TimerEvent: {}
+[13.542002] (-) TimerEvent: {}
+[13.642621] (-) TimerEvent: {}
+[13.743243] (-) TimerEvent: {}
+[13.844045] (-) TimerEvent: {}
+[13.944679] (-) TimerEvent: {}
+[14.045268] (-) TimerEvent: {}
+[14.146572] (-) TimerEvent: {}
+[14.247864] (-) TimerEvent: {}
+[14.349085] (-) TimerEvent: {}
+[14.450600] (-) TimerEvent: {}
+[14.551981] (-) TimerEvent: {}
+[14.653677] (-) TimerEvent: {}
+[14.754785] (-) TimerEvent: {}
+[14.855856] (-) TimerEvent: {}
+[14.956951] (-) TimerEvent: {}
+[15.058222] (-) TimerEvent: {}
+[15.159775] (-) TimerEvent: {}
+[15.261015] (-) TimerEvent: {}
+[15.362698] (-) TimerEvent: {}
+[15.465597] (-) TimerEvent: {}
+[15.566712] (-) TimerEvent: {}
+[15.668046] (-) TimerEvent: {}
+[15.769599] (-) TimerEvent: {}
+[15.874718] (-) TimerEvent: {}
+[15.978190] (-) TimerEvent: {}
+[16.080498] (-) TimerEvent: {}
+[16.183780] (-) TimerEvent: {}
+[16.284411] (-) TimerEvent: {}
+[16.385064] (-) TimerEvent: {}
+[16.485743] (-) TimerEvent: {}
+[16.586506] (-) TimerEvent: {}
+[16.687576] (-) TimerEvent: {}
+[16.788505] (-) TimerEvent: {}
+[16.890868] (-) TimerEvent: {}
+[16.991999] (-) TimerEvent: {}
+[17.092958] (-) TimerEvent: {}
+[17.193519] (-) TimerEvent: {}
+[17.294114] (-) TimerEvent: {}
+[17.394688] (-) TimerEvent: {}
+[17.495579] (-) TimerEvent: {}
+[17.596700] (-) TimerEvent: {}
+[17.697828] (-) TimerEvent: {}
+[17.798870] (-) TimerEvent: {}
+[17.907091] (-) TimerEvent: {}
+[18.008215] (-) TimerEvent: {}
+[18.109256] (-) TimerEvent: {}
+[18.161105] (my_robot_controller) Command: {'cmd': ['/usr/bin/python', 'setup.py', 'egg_info', '--egg-base', '../build/my_robot_controller', 'build', '--build-base', '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build', 'install', '--record', '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_robot_controller', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'SESSION_MANAGER': 'local/ARCH:@/tmp/.ICE-unix/1018,unix/ARCH:/tmp/.ICE-unix/1018', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.125;DP-1=1.125;HDMI-1=1.125;HDMI-2=1.125;', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/home/arifcse21/.config/kdedefaults:/etc/xdg', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'PKG_CONFIG_PATH': '/opt/ros/humble/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'TERMINATOR_UUID': 'urn:uuid:080b2018-fb57-429b-9ff9-5bf38588ac15', 'DESKTOP_SESSION': 'plasma', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/arifcse21/.gtkrc:/home/arifcse21/.config/gtkrc', 'XCURSOR_SIZE': '48', 'EDITOR': 'vim', 'GTK_MODULES': 'canberra-gtk-module', 'XDG_SEAT': 'seat0', 'PWD': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller', 'XDG_SESSION_DESKTOP': 'KDE', 'LOGNAME': 'arifcse21', 'XDG_SESSION_TYPE': 'x11', 'ROS_DOMAIN_ID': '42', 'SYSTEMD_EXEC_PID': '1209', 'XAUTHORITY': '/home/arifcse21/.Xauthority', 'MOTD_SHOWN': 'pam', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/arifcse21/.gtkrc-2.0:/home/arifcse21/.config/gtkrc-2.0', 'HOME': '/home/arifcse21', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'VIRTUAL_ENV': '/mnt/Resources/ROS/ROS2/Workspaces/ros2env', 'VTE_VERSION': '7002', 'AMENT_PREFIX_PATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/opt/ros/humble', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'COLCON_PREFIX_PATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install:/opt/ros/humble', 'INVOCATION_ID': 'd25961305df24840a0ce89698ed4fc64', 'git_token': 'sh /home/arifcse21/.git_token.sh', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'MANAGERPID': '955', 'KDE_SESSION_UID': '1000', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_robot_controller:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/build/ros2-humble/src/install/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'USER': 'arifcse21', 'KDE_SESSION_VERSION': '5', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'rldbsh': 'source /home/arifcse21/.bashrc', 'DISPLAY': ':0', 'SHLVL': '1', 'XDG_VTNR': '1', 'XDG_SESSION_ID': '2', 'VIRTUAL_ENV_PROMPT': '(ros2env)', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/yaml_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib', 'XDG_RUNTIME_DIR': '/run/user/1000', 'ROS_LOCALHOST_ONLY': '0', 'MKLROOT': '/opt/intel/oneapi/mkl/latest', 'DEBUGINFOD_URLS': 'https://debuginfod.archlinux.org', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '8:25872', 'XCURSOR_THEME': 'LyraQ-cursors', 'KDE_FULL_SESSION': 'true', 'PATH': '/opt/ros/humble/bin:/mnt/Resources/ROS/ROS2/Workspaces/ros2env/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/arifcse21/.local/share/JetBrains/Toolbox/scripts', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'MAIL': '/var/spool/mail/arifcse21', 'ROS_DISTRO': 'humble', 'OLDPWD': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws', '_': '/usr/bin/env'}, 'shell': False}
+[18.209448] (-) TimerEvent: {}
+[18.268781] (my_py_pkg) Command: {'cmd': ['/usr/bin/python', 'setup.py', 'egg_info', '--egg-base', '../build/my_py_pkg', 'build', '--build-base', '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/build', 'install', '--record', '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'SESSION_MANAGER': 'local/ARCH:@/tmp/.ICE-unix/1018,unix/ARCH:/tmp/.ICE-unix/1018', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.125;DP-1=1.125;HDMI-1=1.125;HDMI-2=1.125;', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/home/arifcse21/.config/kdedefaults:/etc/xdg', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'PKG_CONFIG_PATH': '/opt/ros/humble/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'TERMINATOR_UUID': 'urn:uuid:080b2018-fb57-429b-9ff9-5bf38588ac15', 'DESKTOP_SESSION': 'plasma', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/arifcse21/.gtkrc:/home/arifcse21/.config/gtkrc', 'XCURSOR_SIZE': '48', 'EDITOR': 'vim', 'GTK_MODULES': 'canberra-gtk-module', 'XDG_SEAT': 'seat0', 'PWD': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg', 'XDG_SESSION_DESKTOP': 'KDE', 'LOGNAME': 'arifcse21', 'XDG_SESSION_TYPE': 'x11', 'ROS_DOMAIN_ID': '42', 'SYSTEMD_EXEC_PID': '1209', 'XAUTHORITY': '/home/arifcse21/.Xauthority', 'MOTD_SHOWN': 'pam', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/arifcse21/.gtkrc-2.0:/home/arifcse21/.config/gtkrc-2.0', 'HOME': '/home/arifcse21', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'VIRTUAL_ENV': '/mnt/Resources/ROS/ROS2/Workspaces/ros2env', 'VTE_VERSION': '7002', 'AMENT_PREFIX_PATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/opt/ros/humble', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'COLCON_PREFIX_PATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install:/opt/ros/humble', 'INVOCATION_ID': 'd25961305df24840a0ce89698ed4fc64', 'git_token': 'sh /home/arifcse21/.git_token.sh', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'MANAGERPID': '955', 'KDE_SESSION_UID': '1000', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_robot_controller:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/build/ros2-humble/src/install/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'USER': 'arifcse21', 'KDE_SESSION_VERSION': '5', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'rldbsh': 'source /home/arifcse21/.bashrc', 'DISPLAY': ':0', 'SHLVL': '1', 'XDG_VTNR': '1', 'XDG_SESSION_ID': '2', 'VIRTUAL_ENV_PROMPT': '(ros2env)', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/yaml_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib', 'XDG_RUNTIME_DIR': '/run/user/1000', 'ROS_LOCALHOST_ONLY': '0', 'MKLROOT': '/opt/intel/oneapi/mkl/latest', 'DEBUGINFOD_URLS': 'https://debuginfod.archlinux.org', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '8:25872', 'XCURSOR_THEME': 'LyraQ-cursors', 'KDE_FULL_SESSION': 'true', 'PATH': '/opt/ros/humble/bin:/mnt/Resources/ROS/ROS2/Workspaces/ros2env/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/arifcse21/.local/share/JetBrains/Toolbox/scripts', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'MAIL': '/var/spool/mail/arifcse21', 'ROS_DISTRO': 'humble', 'OLDPWD': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws', '_': '/usr/bin/env'}, 'shell': False}
+[18.309588] (-) TimerEvent: {}
+[18.410249] (-) TimerEvent: {}
+[18.511299] (-) TimerEvent: {}
+[18.612119] (-) TimerEvent: {}
+[18.713188] (-) TimerEvent: {}
+[18.814391] (-) TimerEvent: {}
+[18.915386] (-) TimerEvent: {}
+[19.018900] (-) TimerEvent: {}
+[19.119506] (-) TimerEvent: {}
+[19.220415] (-) TimerEvent: {}
+[19.321455] (-) TimerEvent: {}
+[19.434651] (-) TimerEvent: {}
+[19.535233] (-) TimerEvent: {}
+[19.635855] (-) TimerEvent: {}
+[19.736438] (-) TimerEvent: {}
+[19.837525] (-) TimerEvent: {}
+[19.938543] (-) TimerEvent: {}
+[20.039613] (-) TimerEvent: {}
+[20.140812] (-) TimerEvent: {}
+[20.241424] (-) TimerEvent: {}
+[20.342019] (-) TimerEvent: {}
+[21.699342] (-) TimerEvent: {}
+[21.800432] (-) TimerEvent: {}
+[21.910411] (-) TimerEvent: {}
+[22.005109] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[22.008832] (my_robot_controller) StdoutLine: {'line': b'creating ../build/my_robot_controller/my_robot_controller.egg-info\n'}
+[22.010542] (-) TimerEvent: {}
+[22.015695] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[22.027509] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[22.031561] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[22.032420] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[22.034712] (my_robot_controller) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build\n'}
+[22.035543] (my_robot_controller) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib\n'}
+[22.036287] (my_robot_controller) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[22.037088] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/__init__.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[22.038266] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/turtle_controller.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[22.081921] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/my_first_node.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[22.088986] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/draw_circle.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[22.105123] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/pose_subscriber.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[22.111112] (-) TimerEvent: {}
+[22.125647] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[22.134251] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[22.137839] (my_robot_controller) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[22.154030] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[22.154841] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc\n'}
+[22.174763] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[22.176216] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc\n'}
+[22.181903] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc\n'}
+[22.194205] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[22.205878] (my_robot_controller) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/ament_index\n'}
+[22.206589] (my_robot_controller) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index\n'}
+[22.207105] (my_robot_controller) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[22.207493] (my_robot_controller) StdoutLine: {'line': b'copying resource/my_robot_controller -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[22.211240] (-) TimerEvent: {}
+[22.211959] (my_robot_controller) StdoutLine: {'line': b'copying package.xml -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller\n'}
+[22.212378] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.236492] (my_robot_controller) StdoutLine: {'line': b'Copying ../build/my_robot_controller/my_robot_controller.egg-info to /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[22.257934] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[22.299816] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[22.302147] (my_py_pkg) StdoutLine: {'line': b'creating ../build/my_py_pkg/my_py_pkg.egg-info\n'}
+[22.306460] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[22.311385] (-) TimerEvent: {}
+[22.338424] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[22.342653] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[22.343173] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[22.343758] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/build\n'}
+[22.344418] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/build/lib\n'}
+[22.344912] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[22.345565] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/__init__.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[22.345938] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[22.367139] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[22.369665] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[22.375637] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[22.376514] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[22.383572] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/ament_index\n'}
+[22.384315] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index\n'}
+[22.384781] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[22.385129] (my_py_pkg) StdoutLine: {'line': b'copying resource/my_py_pkg -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[22.385570] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg\n'}
+[22.385909] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.404634] (my_py_pkg) StdoutLine: {'line': b'Copying ../build/my_py_pkg/my_py_pkg.egg-info to /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[22.409230] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[22.411512] (-) TimerEvent: {}
+[22.512087] (-) TimerEvent: {}
+[22.520218] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/install.log'\n"}
+[22.586863] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/install.log'\n"}
+[22.612262] (-) TimerEvent: {}
+[22.713267] (-) TimerEvent: {}
+[22.792207] (my_py_pkg) CommandEnded: {'returncode': 0}
+[22.813434] (-) TimerEvent: {}
+[22.914082] (-) TimerEvent: {}
+[23.014675] (-) TimerEvent: {}
+[23.115718] (-) TimerEvent: {}
+[23.229384] (-) TimerEvent: {}
+[23.330887] (-) TimerEvent: {}
+[23.431634] (-) TimerEvent: {}
+[23.532478] (-) TimerEvent: {}
+[23.633309] (-) TimerEvent: {}
+[23.733941] (-) TimerEvent: {}
+[23.834560] (-) TimerEvent: {}
+[23.935309] (-) TimerEvent: {}
+[24.041410] (-) TimerEvent: {}
+[24.148091] (-) TimerEvent: {}
+[24.150291] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[24.158464] (my_robot_controller) CommandEnded: {'returncode': 0}
+[24.261090] (-) TimerEvent: {}
+[24.372566] (-) TimerEvent: {}
+[24.402065] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[24.408551] (-) EventReactorShutdown: {}

@@ -1,0 +1,158 @@
+[3.475s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[3.476s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f74fddb9c30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f74fddb96c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f74fddb96c0>>)[0m
+[4.797s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[4.798s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[4.798s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[4.798s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[4.798s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[4.799s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[4.799s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src'
+[4.799s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.801s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[4.801s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[4.801s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[4.801s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[4.802s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[4.802s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[4.802s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[4.802s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[4.876s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[4.876s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[4.876s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[4.876s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[4.877s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[4.877s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[4.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[4.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.879s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[4.879s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[4.879s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.880s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[4.880s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[4.880s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.881s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_py_pkg) by extension 'ignore'
+[4.881s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_py_pkg) by extension 'ignore_ament_install'
+[4.881s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_py_pkg) by extensions ['colcon_pkg']
+[4.881s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_py_pkg) by extension 'colcon_pkg'
+[4.881s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_py_pkg) by extensions ['colcon_meta']
+[4.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_py_pkg) by extension 'colcon_meta'
+[4.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_py_pkg) by extensions ['ros']
+[4.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_py_pkg) by extension 'ros'
+[6.190s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'[0m
+[6.191s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[6.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_robot_controller) by extension 'ignore'
+[6.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_robot_controller) by extension 'ignore_ament_install'
+[6.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_robot_controller) by extensions ['colcon_pkg']
+[6.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_robot_controller) by extension 'colcon_pkg'
+[6.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_robot_controller) by extensions ['colcon_meta']
+[6.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_robot_controller) by extension 'colcon_meta'
+[6.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_robot_controller) by extensions ['ros']
+[6.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_robot_controller) by extension 'ros'
+[6.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'[0m
+[6.254s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[6.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[6.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[6.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[6.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[8.435s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[8.435s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[8.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[8.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[8.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[8.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[8.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[8.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.436s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg', 'merge_install': False, 'path': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}[0m
+[8.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[8.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[8.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[8.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[8.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[8.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[8.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[8.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.460s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller', 'merge_install': False, 'path': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_robot_controller', 'symlink_install': False, 'test_result_base': None}[0m
+[8.466s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[8.510s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[8.675s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[8.676s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[10.316s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[10.317s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[10.366s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[10.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[10.395s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.395s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[11.616s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_robot_controller' with build type 'ament_python'
+[11.617s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[11.665s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[11.667s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[11.668s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[11.709s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.709s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[13.735s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg'
+[13.775s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.776s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[16.120s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_robot_controller'
+[16.155s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.156s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[26.673s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_robot_controller': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed[0m
+[26.781s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed[0m
+[31.304s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed[0m
+[32.486s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg' for CMake module files
+[32.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg' for CMake config files
+[32.494s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/lib'
+[32.495s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/bin'
+[32.495s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[32.496s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages'
+[32.496s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_py_pkg', 'pythonpath')
+[32.554s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[32.556s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[32.558s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[32.563s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/bin'
+[32.563s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_py_pkg)
+[32.603s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[32.611s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[32.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.sh'
+[32.617s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.bash'
+[32.635s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[32.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[32.670s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed[0m
+[32.748s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller' for CMake module files
+[32.751s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller' for CMake config files
+[32.753s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib'
+[32.753s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/bin'
+[32.754s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[32.755s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages'
+[32.755s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_robot_controller', 'pythonpath')
+[32.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[32.834s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[32.835s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[32.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/bin'
+[32.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_robot_controller)
+[32.895s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[32.898s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[32.902s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.sh'
+[32.905s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.bash'
+[32.908s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[32.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[32.914s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[32.916s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[32.916s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[32.917s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[33.098s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.104s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.104s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[33.605s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[33.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/local_setup.ps1'
+[33.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/_local_setup_util_ps1.py'
+[33.764s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/setup.ps1'
+[33.882s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/local_setup.sh'
+[33.896s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/_local_setup_util_sh.py'
+[33.911s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/setup.sh'
+[34.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/local_setup.bash'
+[34.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/setup.bash'
+[34.243s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/local_setup.zsh'
+[34.249s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/setup.zsh'

@@ -1,0 +1,34 @@
+[15.047s] Invoking command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_robot_controller': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed
+[18.890s] running egg_info
+[18.894s] creating ../build/my_robot_controller/my_robot_controller.egg-info
+[18.900s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[18.912s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[18.916s] running build
+[18.918s] running build_py
+[18.919s] creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build
+[18.920s] creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib
+[18.921s] creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[18.922s] copying my_robot_controller/__init__.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[18.923s] copying my_robot_controller/turtle_controller.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[18.967s] copying my_robot_controller/my_first_node.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[18.974s] copying my_robot_controller/draw_circle.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[18.990s] copying my_robot_controller/pose_subscriber.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[19.010s] running install
+[19.019s] running install_lib
+[19.023s] creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[19.039s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[19.040s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[19.060s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[19.061s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[19.067s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[19.079s] running install_data
+[19.091s] creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/ament_index
+[19.091s] creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index
+[19.092s] creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[19.092s] copying resource/my_robot_controller -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[19.097s] copying package.xml -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/share/my_robot_controller
+[19.097s] running install_egg_info
+[19.121s] Copying ../build/my_robot_controller/my_robot_controller.egg-info to /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[19.143s] running install_scripts
+[19.405s] writing list of installed files to '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/install.log'
+[21.043s] Invoked command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed
