@@ -1,7 +1,0 @@
-[5.231s] Invoking command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_robot_controller': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py develop --prefix /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller --editable --build-directory /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_robot_controller/build --no-deps install_data --install-dir /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller
-[5.686s] running develop
-[6.121s] running egg_info
-[6.127s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
-[6.181s] running build_ext
-[6.183s] running install_data
-[6.240s] Invoked command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py develop --prefix /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller --editable --build-directory /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_robot_controller/build --no-deps install_data --install-dir /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller
