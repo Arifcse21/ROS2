@@ -10,9 +10,9 @@ class SpeakerNode(Node):
 
     def speaker_callback(self):
         self.get_logger().info("Speaker Node Initialized. Ami ekhon kotha bolbo ...")
-        speak("Speaker Node Initialized. I will speak now", "en", slow=True, speak=True)
+        speak("Speaker Node Initialized. I will speak now", "en", save=1, file="pls_delete_me.mp3")
         self.get_logger().info("Hello Abdullah Al Arif ...")
-        speak("Hello Abdullah Al Arif", "bn",  slow=True, speak=True)
+        speak("Hello Abdullah Al Arif", "bn",  save=1, file="pls_delete_me.mp3")
 
 
 def main(args=None):
