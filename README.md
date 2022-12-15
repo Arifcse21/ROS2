@@ -1,7 +1,7 @@
 # ROS2
 Robot Operating System V.2 Practice
 
-### My System Specs:
+### System Specs:
 - Primary Machine: Asus X556UQ
   - Operating System: Arch Linux
 - Secondary Machine: Raspberry Pi 3B+
