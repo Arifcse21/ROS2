@@ -1,0 +1,17 @@
+[1.287s] Invoking command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py develop --uninstall --editable --build-directory /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build
+[1.729s] running develop
+[2.106s] Invoked command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py develop --uninstall --editable --build-directory /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build
+[2.107s] Invoking command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.522s] running egg_info
+[2.527s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.527s] running build
+[2.527s] running build_py
+[2.528s] running install
+[2.529s] running install_lib
+[2.530s] running install_data
+[2.531s] running install_egg_info
+[2.533s] removing '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.534s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.535s] running install_scripts
+[2.560s] writing list of installed files to '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log'
+[2.595s] Invoked command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

@@ -1,8 +1,5 @@
 .idea/
 __pycache__/
-log/
-build/
-install/
 .mp3
 pls_delete_me.mp3
 

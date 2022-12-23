@@ -1,0 +1,22 @@
+[4.561s] Invoking command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py develop --uninstall --editable --build-directory /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build
+[5.086s] running develop
+[5.990s] Invoked command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py develop --uninstall --editable --build-directory /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build
+[5.991s] Invoking command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[6.414s] running egg_info
+[6.776s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[6.776s] running build
+[6.777s] running build_py
+[6.778s] running install
+[6.782s] running install_lib
+[6.784s] creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[7.209s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[7.210s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/test.py to test.cpython-310.pyc
+[7.212s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[7.214s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/speaker_node.py to speaker_node.cpython-310.pyc
+[7.216s] running install_data
+[7.219s] copying package.xml -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[7.220s] running install_egg_info
+[7.226s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[7.339s] running install_scripts
+[7.473s] writing list of installed files to '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log'
+[7.532s] Invoked command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

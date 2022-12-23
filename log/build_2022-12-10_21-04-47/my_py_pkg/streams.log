@@ -1,0 +1,16 @@
+[1.402s] Invoking command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.871s] running egg_info
+[1.877s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.878s] running build
+[1.878s] running build_py
+[1.878s] copying my_py_pkg/my_first_node.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.878s] running install
+[1.879s] running install_lib
+[1.881s] byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[1.882s] running install_data
+[1.882s] running install_egg_info
+[1.884s] removing '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.885s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.886s] running install_scripts
+[1.910s] writing list of installed files to '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log'
+[1.949s] Invoked command in '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2env) _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build install --record /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

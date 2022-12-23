@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000189] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001348] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.100133] (-) TimerEvent: {}
+[0.200448] (-) TimerEvent: {}
+[0.300765] (-) TimerEvent: {}
+[0.401054] (-) TimerEvent: {}
+[0.501348] (-) TimerEvent: {}
+[0.602075] (-) TimerEvent: {}
+[0.703080] (-) TimerEvent: {}
+[0.804090] (-) TimerEvent: {}
+[0.904869] (-) TimerEvent: {}
+[1.005167] (-) TimerEvent: {}
+[1.105576] (-) TimerEvent: {}
+[1.206220] (-) TimerEvent: {}
+[1.306597] (-) TimerEvent: {}
+[1.406886] (-) TimerEvent: {}
+[1.507180] (-) TimerEvent: {}
+[1.607868] (-) TimerEvent: {}
+[1.708814] (-) TimerEvent: {}
+[1.809557] (-) TimerEvent: {}
+[1.909933] (-) TimerEvent: {}
+[2.010650] (-) TimerEvent: {}
+[2.111345] (-) TimerEvent: {}
+[2.211950] (-) TimerEvent: {}
+[2.312801] (-) TimerEvent: {}
+[2.413596] (-) TimerEvent: {}
+[2.514483] (-) TimerEvent: {}
+[2.615350] (-) TimerEvent: {}
+[2.716165] (-) TimerEvent: {}
+[2.817042] (-) TimerEvent: {}
+[2.918004] (-) TimerEvent: {}
+[3.018520] (-) TimerEvent: {}
+[3.119145] (-) TimerEvent: {}
+[3.219814] (-) TimerEvent: {}
+[3.320512] (-) TimerEvent: {}
+[3.421416] (-) TimerEvent: {}
+[3.521946] (-) TimerEvent: {}
+[3.622785] (-) TimerEvent: {}
+[3.723628] (-) TimerEvent: {}
+[3.824579] (-) TimerEvent: {}
+[3.925373] (-) TimerEvent: {}
+[4.026217] (-) TimerEvent: {}
+[4.127024] (-) TimerEvent: {}
+[4.223647] (my_py_pkg) Command: {'cmd': ['/usr/bin/python', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build'], 'cwd': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'SESSION_MANAGER': 'local/ARCH:@/tmp/.ICE-unix/1132,unix/ARCH:/tmp/.ICE-unix/1132', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.125;DP-1=1.125;HDMI-1=1.125;HDMI-2=1.125;', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/home/arifcse21/.config/kdedefaults:/etc/xdg', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'PKG_CONFIG_PATH': '/opt/ros/humble/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'TERMINATOR_UUID': 'urn:uuid:18646171-d39c-452a-85d9-a360dc3247e4', 'DESKTOP_SESSION': 'plasma', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/arifcse21/.gtkrc:/home/arifcse21/.config/gtkrc', 'XCURSOR_SIZE': '48', 'EDITOR': 'vim', 'GTK_MODULES': 'canberra-gtk-module', 'XDG_SEAT': 'seat0', 'PWD': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg', 'XDG_SESSION_DESKTOP': 'KDE', 'LOGNAME': 'arifcse21', 'XDG_SESSION_TYPE': 'x11', 'ROS_DOMAIN_ID': '42', 'SYSTEMD_EXEC_PID': '1321', 'XAUTHORITY': '/home/arifcse21/.Xauthority', 'MOTD_SHOWN': 'pam', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/arifcse21/.gtkrc-2.0:/home/arifcse21/.config/gtkrc-2.0', 'HOME': '/home/arifcse21', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'VIRTUAL_ENV': '/mnt/Resources/ROS/ROS2/Workspaces/ros2env', 'VTE_VERSION': '7002', 'AMENT_PREFIX_PATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/opt/ros/humble', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'COLCON_PREFIX_PATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install:/opt/ros/humble', 'INVOCATION_ID': '6e008a15eecf4a01a909b628fd78ab4a', 'git_token': 'sh /home/arifcse21/.git_token.sh', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'MANAGERPID': '1067', 'KDE_SESSION_UID': '1000', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_robot_controller:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/build/ros2-humble/src/install/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'USER': 'arifcse21', 'KDE_SESSION_VERSION': '5', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'rldbsh': 'source /home/arifcse21/.bashrc', 'DISPLAY': ':0', 'SHLVL': '1', 'XDG_VTNR': '1', 'XDG_SESSION_ID': '2', 'VIRTUAL_ENV_PROMPT': '(ros2env)', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/yaml_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib', 'XDG_RUNTIME_DIR': '/run/user/1000', 'ROS_LOCALHOST_ONLY': '0', 'MKLROOT': '/opt/intel/oneapi/mkl/latest', 'DEBUGINFOD_URLS': 'https://debuginfod.archlinux.org', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '8:27486', 'XCURSOR_THEME': 'LyraQ-cursors', 'KDE_FULL_SESSION': 'true', 'PATH': '/opt/ros/humble/bin:/mnt/Resources/ROS/ROS2/Workspaces/ros2env/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/arifcse21/.local/share/JetBrains/Toolbox/scripts', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'MAIL': '/var/spool/mail/arifcse21', 'ROS_DISTRO': 'humble', 'OLDPWD': '/mnt/Resources/ROS/ROS2/Workspaces', '_': '/usr/bin/env'}, 'shell': False}
+[4.227276] (-) TimerEvent: {}
+[4.327498] (-) TimerEvent: {}
+[4.427821] (-) TimerEvent: {}
+[4.528102] (-) TimerEvent: {}
+[4.628385] (-) TimerEvent: {}
+[4.708006] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[4.735278] (-) TimerEvent: {}
+[4.835626] (-) TimerEvent: {}
+[4.935913] (-) TimerEvent: {}
+[5.036195] (-) TimerEvent: {}
+[5.094806] (my_py_pkg) CommandEnded: {'returncode': 0}
+[5.095769] (my_py_pkg) Command: {'cmd': ['/usr/bin/python', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/src/my_py_pkg', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'SESSION_MANAGER': 'local/ARCH:@/tmp/.ICE-unix/1132,unix/ARCH:/tmp/.ICE-unix/1132', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.125;DP-1=1.125;HDMI-1=1.125;HDMI-2=1.125;', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/home/arifcse21/.config/kdedefaults:/etc/xdg', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'PKG_CONFIG_PATH': '/opt/ros/humble/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'TERMINATOR_UUID': 'urn:uuid:18646171-d39c-452a-85d9-a360dc3247e4', 'DESKTOP_SESSION': 'plasma', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/arifcse21/.gtkrc:/home/arifcse21/.config/gtkrc', 'XCURSOR_SIZE': '48', 'EDITOR': 'vim', 'GTK_MODULES': 'canberra-gtk-module', 'XDG_SEAT': 'seat0', 'PWD': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg', 'XDG_SESSION_DESKTOP': 'KDE', 'LOGNAME': 'arifcse21', 'XDG_SESSION_TYPE': 'x11', 'ROS_DOMAIN_ID': '42', 'SYSTEMD_EXEC_PID': '1321', 'XAUTHORITY': '/home/arifcse21/.Xauthority', 'MOTD_SHOWN': 'pam', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/arifcse21/.gtkrc-2.0:/home/arifcse21/.config/gtkrc-2.0', 'HOME': '/home/arifcse21', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'VIRTUAL_ENV': '/mnt/Resources/ROS/ROS2/Workspaces/ros2env', 'VTE_VERSION': '7002', 'AMENT_PREFIX_PATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/opt/ros/humble', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'COLCON_PREFIX_PATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install:/opt/ros/humble', 'INVOCATION_ID': '6e008a15eecf4a01a909b628fd78ab4a', 'git_token': 'sh /home/arifcse21/.git_token.sh', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'MANAGERPID': '1067', 'KDE_SESSION_UID': '1000', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/prefix_override:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_robot_controller:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg:/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/build/ros2-humble/src/install/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'USER': 'arifcse21', 'KDE_SESSION_VERSION': '5', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'rldbsh': 'source /home/arifcse21/.bashrc', 'DISPLAY': ':0', 'SHLVL': '1', 'XDG_VTNR': '1', 'XDG_SESSION_ID': '2', 'VIRTUAL_ENV_PROMPT': '(ros2env)', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/yaml_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib', 'XDG_RUNTIME_DIR': '/run/user/1000', 'ROS_LOCALHOST_ONLY': '0', 'MKLROOT': '/opt/intel/oneapi/mkl/latest', 'DEBUGINFOD_URLS': 'https://debuginfod.archlinux.org', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '8:27486', 'XCURSOR_THEME': 'LyraQ-cursors', 'KDE_FULL_SESSION': 'true', 'PATH': '/opt/ros/humble/bin:/mnt/Resources/ROS/ROS2/Workspaces/ros2env/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/arifcse21/.local/share/JetBrains/Toolbox/scripts', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'MAIL': '/var/spool/mail/arifcse21', 'ROS_DISTRO': 'humble', 'OLDPWD': '/mnt/Resources/ROS/ROS2/Workspaces', '_': '/usr/bin/env'}, 'shell': False}
+[5.136300] (-) TimerEvent: {}
+[5.236579] (-) TimerEvent: {}
+[5.336856] (-) TimerEvent: {}
+[5.437141] (-) TimerEvent: {}
+[5.512158] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.537597] (-) TimerEvent: {}
+[5.638074] (-) TimerEvent: {}
+[5.696657] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.697628] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[5.697997] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.698651] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/speaker_node.py -> /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[5.699253] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[5.702697] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.705496] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[5.723261] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[5.724135] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[5.726450] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/speaker_node.py to speaker_node.cpython-310.pyc\n'}
+[5.727806] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.730737] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.737101] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[5.738289] (-) TimerEvent: {}
+[5.821690] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.838406] (-) TimerEvent: {}
+[5.846630] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/mnt/Resources/ROS/ROS2/Workspaces/ros2_ws/build/my_py_pkg/install.log'\n"}
+[5.881809] (my_py_pkg) CommandEnded: {'returncode': 0}
+[5.941027] (-) TimerEvent: {}
+[6.042108] (-) TimerEvent: {}
+[6.048833] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[6.049728] (-) EventReactorShutdown: {}
