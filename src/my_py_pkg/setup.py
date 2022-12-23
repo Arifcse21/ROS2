@@ -23,7 +23,8 @@ setup(
             "py_node = my_py_pkg.my_first_node:main",
             "speaker_node = my_py_pkg.speaker_node:main",
             "robot_news_station = my_py_pkg.Publishers.robot_news_station:main",
-            "net_speed_test = my_py_pkg.Publishers.internet_speed_tester:main"
+            "net_speed_test = my_py_pkg.Publishers.internet_speed_tester:main",
+            "smartphone = my_py_pkg.Subscribers.smartphone:main",
         ],
     },
 )
