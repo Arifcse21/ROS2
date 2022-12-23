@@ -11,13 +11,14 @@ class RobotNewsStationNode(Node):
         self.publisher_ = self.create_publisher(
             String,         # Message type
             "robot_news",   # Topic name it publishes
-            10
+            10              # queue size
         )
         self.timer_ = self.create_timer(0.5, self.publish_news, )
         self.get_logger().info(f"Robot news station has been started")
 
     def publish_news(self):
         msg = String()
+        self.get_logger().info(f"Hello from robot news station  [{self.counter}]")
         msg.data = f"Hello from robot news station  [{self.counter}]"
         self.counter += 1
         self.publisher_.publish(msg)
